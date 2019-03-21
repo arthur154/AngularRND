@@ -1,0 +1,32 @@
+@import 'colors.scss';
+
+button {
+  &.primary-button, &.primary-button:hover, &.primary-button:active {
+    background: $secondary-color;
+    color: $primary-text-color;
+    padding: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 1.3333333;
+    border-radius: 0;
+    font-weight: 600;
+    border: 1px solid transparent;
+  }
+
+  &.primary-button {
+    &:hover {
+      background: $secondary-color-dark;
+    }
+
+    &:focus {
+      background: $secondary-color-light;
+    }
+
+    &:disabled {
+      background: $secondary-color-disabled;
+      cursor: default;
+    }
+  }
+}

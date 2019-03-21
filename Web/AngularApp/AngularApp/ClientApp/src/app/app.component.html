@@ -1,0 +1,50 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="content">
+  <div class="header">
+    <img width="300" alt="Bootstrap Logo" src="../assets/techstack.png" />
+  </div>
+
+  <div class="container" style="padding:10px;">
+    <ngb-tabset>
+      <ngb-tab title="Data Tables">
+        <ng-template ngbTabContent>
+          <app-data-table-example></app-data-table-example>
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab title="Polling">
+        <ng-template ngbTabContent>
+          <app-polling-example></app-polling-example>
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab title="Memeber App">
+        <ng-template ngbTabContent>
+          <app-member></app-member>
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab title="Alert Demo">
+        <ng-template ngbTabContent>
+          <app-bs-alert-example></app-bs-alert-example>
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab>
+        <ng-template ngbTabTitle>
+          Progress Bars
+        </ng-template>
+        <ng-template ngbTabContent>
+          <p><ngb-progressbar type="success" [value]="25"></ngb-progressbar></p>
+          <p><ngb-progressbar type="info" [value]="50"></ngb-progressbar></p>
+          <p><ngb-progressbar type="warning" [value]="75"></ngb-progressbar></p>
+          <p><ngb-progressbar type="danger" [value]="100"></ngb-progressbar></p>
+        </ng-template>
+      </ngb-tab>
+    </ngb-tabset>
+  </div>
+</div>
+
+<div class="footer">
+  <a class="brand" href="https://www.intersysconsulting.com">
+    <img alt="Intersys Consulting, Inc." src="../assets/intersys-logo.svg" />
+  </a>
+</div>
+
+<app-user-messages></app-user-messages>

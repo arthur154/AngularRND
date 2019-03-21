@@ -1,0 +1,40 @@
+@import 'datatables-patch.scss';
+@import 'colors.scss';
+
+.dataTables_wrapper .dataTables_paginate {
+  .paginate_button {
+    background: $secondary-color;
+    color: $primary-text-color !important;
+  }
+
+  .paginate_button:active, .paginate_button.current {
+    background: $secondary-color-light;
+    color: $primary-text-color !important;
+  }
+
+  .paginate_button:hover, .paginate_button.current:hover {
+    background: $secondary-color-dark;
+    color: $primary-text-color !important;
+  }
+}
+
+.no-data-available {
+  text-align: center;
+}
+
+.dataTables_wrapper button {
+  &.dt-button, &.dt-button:hover, &.dt-button:active {
+    background: $secondary-color;
+    color: $primary-text-color;
+    cursor: pointer;
+    border-radius: 0;
+    font-weight: 400;
+    border: 1px solid transparent;
+  }
+
+  &.dt-button {
+    &:hover, &:focus {
+      background: $secondary-color-dark;
+    }
+  }
+}

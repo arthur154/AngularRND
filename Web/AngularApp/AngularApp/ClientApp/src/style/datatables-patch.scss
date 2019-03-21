@@ -1,0 +1,4 @@
+// Fix for empty record bug on initial datatable load
+.dataTables_empty {
+  display: none;
+}

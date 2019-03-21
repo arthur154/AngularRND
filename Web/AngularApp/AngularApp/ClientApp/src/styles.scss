@@ -1,0 +1,55 @@
+@import 'style/colors.scss';
+@import 'style/bootstrap.scss';
+@import 'style/datatables.scss';
+@import 'style/button.scss';
+
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Dosis,sans-serif;
+}
+
+.header {
+  background: $primary-color;
+  color: $primary-text-color;
+  text-align: center;
+  padding: 5px;
+}
+
+.content {
+  min-height: calc(100vh - 70px);
+}
+
+.footer {
+  text-align: center;
+  height: 50px;
+}
+
+a.brand img {
+  height: 25px;
+  width: auto
+}
+
+.tab-content {
+    padding-top: 10px;
+}
+
+.small-padding-top {
+  padding-top: 10px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.user-messages {
+  position: fixed;
+  right: 50px;
+  bottom: 5px;
+}

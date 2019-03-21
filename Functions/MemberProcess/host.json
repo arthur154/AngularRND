@@ -1,0 +1,6 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "ServiceBusConnection": "Endpoint=sb://egdbus.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=A30bD92KqMJ9FjWvFJHR7dT4LiJsqbVW91r/7hpI1Xg="
+  }
+}

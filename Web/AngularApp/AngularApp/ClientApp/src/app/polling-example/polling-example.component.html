@@ -1,0 +1,14 @@
+<div>
+  <button class="primary-button" (click)='GetMemeber()'>Get a Memeber</button>
+
+  <div>
+    {{memberJsonString}}
+  </div>
+  <button class="primary-button" (click)='SaveMemeber()'>Save Memeber Data</button>
+
+  <div>
+    <div>Correlation ID: {{insertStatus.correlationid}}</div>
+    <div>Status: {{status}}</div>
+  </div>
+  <button class="primary-button" (click)='RefreshStatus()'>Refresh Status</button>
+</div>
